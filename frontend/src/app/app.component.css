@@ -1,0 +1,55 @@
+.topbar {
+  background: #111827;
+  color: white;
+}
+
+.topbar-content {
+  min-height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.brand {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  gap: 18px;
+}
+
+nav a {
+  color: #dbeafe;
+  text-decoration: none;
+}
+
+nav a.active {
+  color: white;
+  font-weight: 700;
+}
+
+main {
+  min-height: calc(100vh - 128px);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer {
+  padding: 20px 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+@media (max-width: 650px) {
+  .topbar-content {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

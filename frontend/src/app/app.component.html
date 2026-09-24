@@ -1,0 +1,32 @@
+<header class="topbar">
+  <div class="container topbar-content">
+    <a class="brand" routerLink="/produtos">CRUD SPA</a>
+
+    <nav>
+      <a
+        routerLink="/produtos"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        Produtos
+      </a>
+
+      <a
+        routerLink="/produtos/novo"
+        routerLinkActive="active"
+      >
+        Novo produto
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <router-outlet />
+</main>
+
+<footer class="footer">
+  <div class="container">
+    Angular SPA + Node.js API + PostgreSQL
+  </div>
+</footer>
