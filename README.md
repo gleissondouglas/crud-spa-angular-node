@@ -70,7 +70,7 @@ crud-spa-angular-node/
 
 ## Dockerfiles
 
-Os Dockerfiles não copiam o código para a imagem.
+Os Dockerfiles não copiam o código para a imagem
 
 O código é montado por bind mount:
 
@@ -144,7 +144,7 @@ DELETE /api/products/:id
 2. Vá para a aba Network.
 3. Navegue entre "Produtos" e "Novo produto".
 4. Perceba que o navegador não solicita um novo documento HTML completo.
-5. Ao listar/salvar produtos, o Angular chama `/api/products` e recebe JSON.
+5. Ao listar/salvar produtos, o Angular chama `/api/products` e recebe JSON
 
 ## Apagar o banco e começar novamente
 
@@ -154,4 +154,4 @@ docker compose up --build
 ```
 
 O script `db/init.sql` é executado somente na criação inicial
-do volume do PostgreSQL.
+do volume do PostgreSQL
